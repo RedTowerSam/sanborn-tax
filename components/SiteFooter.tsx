@@ -13,6 +13,19 @@ export default function SiteFooter() {
             <p className="font-bold text-lg text-center">(309) 839-2676</p>
           </div>
         </div>
+        <div className="mt-8 pt-6 border-t border-brand-light/20 text-center">
+          <p className="text-sm text-brand-light/80">
+            Site design by{" "}
+            <a
+              href="https://www.redtowerdigital.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-brand-light transition-colors"
+            >
+              Red Tower Digital
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
